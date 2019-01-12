@@ -10,4 +10,4 @@ No accounts, no subscriptions, no bs.
 
 ## notes
 Email entry field currently does nothing, don't worry about it.
-Already dark-themed, may not play nice with a dark-mode browser addon.
+Already dark-themed, may not play nice with a dark-mode browser addons.
