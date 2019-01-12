@@ -8,5 +8,5 @@ Select your available times, export an image, send it how you like.
 No accounts, no subscriptions, no bs.
 
 
-##notes
+## notes
 Email entry field currently does nothing, don't worry about it.
