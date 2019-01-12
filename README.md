@@ -1,7 +1,7 @@
 # availabuddy
 **VERY EARLY WIP**
 
-Need to let someone know when you have time for a meeting?
+"Let me know some times you're available next week for an interview!" -some recruiter
 
 Select your available times, export an image, send it how you like.
 
