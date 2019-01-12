@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" type="text/css" href="node_modules/weekli.js/css/weekli.css"/>		
+		<!-- <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>	-->
+
+		<!-- Bootstrap CSS 	-->	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		
+		<!-- Themed Boostrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>	
+		
+		<!-- Custom CSS override -->
+		<link rel="stylesheet" type="text/css" href="css/custom.css"/>		
+		
+		<title>Availabuddy</title>
+	</head>
+		<body>	
+		
+		<!-- Optional JavaScript 
+		jQuery first, then Popper.js, then Bootstrap JS 
+		-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		
+		<!--<script type="text/javascript" src="node_modules/weekli.js/js/weekli.js"></script>-->
+		
+		<div class = "container">	
+			<div class="jumbotron">
+				<h1 class="display-4">Availabuddy</h1>
+				<p class="lead">Availability, made easy.</p>
+			</div>	
+			
+			<div class="card">
+					
+				<div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+
+				
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Select Timezone
+					</button>
+					<div class="dropdown-menu pre-scrollable" aria-labelledby="dropdownMenuButton" id="timezone_menu">
+
+					</div>
+				</div>
+				
+				<h5 class="card-header">Mark available time in green below.</h5>
+				<div id="export-div">
+					<div id="export-only" style="display: none;>
+						<h4 id="export-text">First Lastname's availability. Timezone: GMT-4</h4>
+					</div>
+					<div id="weekli"></div>		
+				</div>
+
+				<button type="button" class="btn btn-primary" id="image-button">Export Image</button>
+			</div>
+		</div>		
+		
+		<script src="main.js"></script>
+		
+	<script type="text/javascript" src="index.js"></script></body>
+</html>
+
+
